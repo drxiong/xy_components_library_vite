@@ -7,6 +7,8 @@ on:
 jobs:
   Lint:
     # Lint任务
+    - name: Run Test
+      run: pnpm run test:run
   UnitTest:
     # The type of runner that the job will run on
     runs-on: Macos-latest
