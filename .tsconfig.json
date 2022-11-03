@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "declaration": true, /* declaration的值为true或false，用来指定是否在编译的时候生成相应的".d.ts"声明文件。如果设为true，编译每个ts文件之后会生成一个js文件和一个声明文件。但是declaration和allowJs不能同时设为true */
+      "declarationDir": "./dist/types", /* '.d.ts' 文件输出目录 */
+      "jsx": "preserve" /* 指定jsx代码用于的开发环境: 'preserve', 'react-native', or 'react'. */
+  },
+  "include": [
+      "./**/*.*",
+      "./shims-vue.d.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ],
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": "true"
+}
